@@ -1,7 +1,8 @@
 {
-  "name": "test-demo",
+  "name": "browsertesting-scaffold",
   "version": "1.0.0",
-  "description": "An opinionated demonstration of browser testing",
+  "private": true,
+  "description": "A simple project scaffold (PR requests very welcome) that shows how to start using testling and travis for automated browser testing",
   "main": "index.js",
   "scripts": {
     "test": "zuul --local 8080 -- test/all.js"
