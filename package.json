@@ -23,7 +23,6 @@
   "devDependencies": {
     "tape": "^3.0.1",
     "testling": "^1.7.1",
-    "zuul": "^1.13.0",
     "travis-multirunner": "~1.0.0"
   },
   "testling": {
