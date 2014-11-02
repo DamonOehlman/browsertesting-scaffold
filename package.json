@@ -5,7 +5,7 @@
   "description": "A simple project scaffold (PR requests very welcome) that shows how to start using testling and travis for automated browser testing",
   "main": "index.js",
   "scripts": {
-    "test": "testling -x ./start-$BROWSER.sh"
+    "test": "testling -x ./node_modules/travis-multirunner/start-$BROWSER.sh"
   },
   "keywords": [
     "testing"
