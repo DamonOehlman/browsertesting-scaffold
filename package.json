@@ -1,0 +1,32 @@
+{
+  "name": "test-demo",
+  "version": "1.0.0",
+  "description": "An opinionated demonstration of browser testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "zuul --local 8080 -- test/all.js"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/browsertesting-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/browsertesting-demo/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/browsertesting-demo",
+  "devDependencies": {
+    "tape": "^3.0.1",
+    "testling": "^1.7.1",
+    "zuul": "^1.13.0",
+    "travis-multirunner": "~1.0.0"
+  },
+  "testling": {
+    "files": "test/all.js",
+    "server": "test/server.js"
+  }
+}
